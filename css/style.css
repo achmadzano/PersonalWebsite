@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /* Color variables */
 :root {
   --white-color: #fff;
@@ -96,4 +100,9 @@ footer .social-icons a {
 
 .bg-dark {
   background-color: black;
+}
+
+img.navbar-brand {
+  width: 40px; /* Set the desired width */
+  height: auto; /* Let the height scale proportionally based on the width */
 }
